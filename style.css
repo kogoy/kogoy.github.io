@@ -1,32 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>My First Page</title>
-  <style>
-    body {
-      background-color: #e0ffff; /* 明るい水色 */
-      text-align: center;
-      font-family: Arial, sans-serif;
-    }
+body {
+  background: lightcyan;
+  width: 800px;
+  margin: auto;
+}
 
-    h1 {
-      color: maroon; /* 濃い赤 */
-      margin-top: 40px;
-    }
+h1 {
+  color: maroon;
+  text-align: center;
+}
 
-    p {
-      border: 1px solid gray;
-      display: inline-block;
-      padding: 10px;
-      margin-top: 20px;
-    }
-  </style>
-</head>
-<body>
-
-  <h1>My First Heading</h1>
-  <p>My first paragraph.</p>
-
-</body>
-</html>
+p {
+  color: gray;
+  border: 1px solid gray;
+  padding: 10px;
+}
